@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8ab6d6;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    font-size: 2em;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #4a90a4;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+a {
+    color: #4a90a4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6b6b;
+    text-decoration: underline;
+}
+
+a[target="_blank"] {
+    font-weight: bold;
+}
+
+a[target="_blank"]:hover {
+    color: #ff6b6b;
+    text-decoration: underline;
+}
+
+#topo img {
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #c2d2e9;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 1em;
+}
+
+nav ul li img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+section {
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+section:hover {
+    background-color: #e8f1f8;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #8ab6d6;
+    padding-bottom: 5px;
+}
+
+section p, section li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: oblique;
+}
+
+.resumo p,
+#educacao p {
+    padding: 10px 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.ods figure img {
+    border: 2px solid #8ab6d6;
+    padding: 5px;
+}
+
+.habilidades ol,
+.hobbies ul,
+.links-adicionais ul {
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #8ab6d6;
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: bold;
+}
